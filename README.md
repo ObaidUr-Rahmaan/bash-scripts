@@ -4,9 +4,7 @@ Bash is the shell, or command language interpreter, for the GNU operating system
 
 ## Download Bash for your OS
 
-* 
-
-* Tutorials - 
+* https://git-scm.com/downloads [2 in 1 Git Bash Terminal]
 
 ## Scripts Info + Dependencies
 
