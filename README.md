@@ -15,7 +15,7 @@ Bash is the shell, or command language interpreter, for the GNU operating system
 alias begin-pomodoro='sh ~/Desktop/bash-scripts/pomo.sh 25 "Pomodoro" "Pomodoro started, you have 25 minutes left" "Pomodoro ended. Please stop your work and take a short break"'
 ```
 
-**N.B. Make sure to clone this repo onto your Desktop**
+**N.B. Make sure to clone this repo onto your Desktop if you want pomo.sh to work. Otherwise, you need to change the file destination arguement of the above command to point to where you've saved the file on your system**
 
 More scripts coming...
 
