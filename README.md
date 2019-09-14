@@ -14,7 +14,7 @@ Bash is the shell, or command language interpreter, for the GNU operating system
 
 * **pomo.sh** : Notorious Pomodoro Timer for highly-focused, distraction free work. Requires ***notify-send***. notify-send is a program to send desktop notifications, inform the user about an event or display some form of information without getting in the user's way. This is of course useful when setting any kind of timer. Download from http://vaskovsky.net/notify-send/. Once downloaded, unzip and configure environment PATH variable to point to inside the unzipped folder so that your terminal has access to the notify-send.exe file. The final step is to configure your .bash_profile file by adding the following: <br/> 
 ```
-alias begin-pomodoro='sh ~/utils/p-timer.sh 25 "Pomodoro" "Pomodoro started, you have 25 minutes left" "Pomodoro ended. Please stop the work and take short break"'
+alias begin-pomodoro='sh ~/Desktop/bash-scripts/pomo.sh 25 "Pomodoro" "Pomodoro started, you have 25 minutes left" "Pomodoro ended. Please stop your work and take a short break"'
 ```
 
 More scripts coming...
