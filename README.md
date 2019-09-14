@@ -16,6 +16,9 @@ Bash is the shell, or command language interpreter, for the GNU operating system
 ```
 alias begin-pomodoro='sh ~/Desktop/bash-scripts/pomo.sh 25 "Pomodoro" "Pomodoro started, you have 25 minutes left" "Pomodoro ended. Please stop your work and take a short break"'
 ```
+Now you can just type in 'begin-pomodoro' in your terminal and the 25-minute timer will start.
+
+**N.B. Make sure to clone this repo in your Desktop**
 
 More scripts coming...
 
