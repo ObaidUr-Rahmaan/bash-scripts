@@ -7,25 +7,27 @@ summary=$3
 work_message=$4
 break_message=$5
 end_message=$6
-notify-send -u critical -i appointment -t 600 "$summary" "$work_message"
-echo
+notify-send -u critical -i appointment -t 500 "$summary" "$work_message"
+echo "Pomodoro Started...";
 while [ $work_counter != $work_limit ]; do
    echo "$work_counter minutes so far...";
    sleep 1
    let "work_counter = $work_counter + 1"
 done
 if [ $work_counter = $work_limit ]; then
-   echo
-   notify-send -u critical -i appointment -t 600 "$summary" "$break_message"
-   echo
+   echo "$work_counter minutes so far...";
+   echo "Work Ended --------------------";
+   notify-send -u critical -i appointment -t 500 "$summary" "$break_message"
    while [ $break_counter != $break_limit ]; do
       echo "$break_counter minutes so far...";
       sleep 1
       let "break_counter = $break_counter + 1"
    done
    if [ $break_counter = $break_limit ]; then
-      echo
-      notify-send -u critical -i appointment "$summary" "$end_message"
+      echo "$break_counter minutes so far...";
+      echo "Break Ended --------------------";
+      notify-send -u critical -i appointment -t 500 "$summary" "$end_message"
+      echo "Pomodoro Ended."
       exit 0
    fi
 fi
