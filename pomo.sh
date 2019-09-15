@@ -11,7 +11,7 @@ notify-send -u critical -i appointment -t 500 "$summary" "$work_message"
 echo "Pomodoro Started...";
 while [ $work_counter != $work_limit ]; do
    echo "$work_counter minutes so far...";
-   sleep 1
+   sleep 60
    let "work_counter = $work_counter + 1"
 done
 if [ $work_counter = $work_limit ]; then
@@ -20,7 +20,7 @@ if [ $work_counter = $work_limit ]; then
    notify-send -u critical -i appointment -t 500 "$summary" "$break_message"
    while [ $break_counter != $break_limit ]; do
       echo "$break_counter minutes so far...";
-      sleep 1
+      sleep 60
       let "break_counter = $break_counter + 1"
    done
    if [ $break_counter = $break_limit ]; then
