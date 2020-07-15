@@ -1,3 +1,7 @@
+```
+ "A good engineer is a lazy engineer. They should always hate doing the same things over and over again." - Some guy that wanted to optimize his workflow ;p
+```
+
 # Bash Scripting
 
 Bash is the shell, or command language interpreter, for the GNU operating system. The name is an acronym for the ' Bourne-Again SHell ', a pun on Stephen Bourne, the author of the direct ancestor of the current Unix shell sh , which appeared in the Seventh Edition Bell Labs Research version of Unix.  In the context of Bash scripts, we are telling the Bash shell what it should do. A Bash script is a plain text file which contains a series of commands.
